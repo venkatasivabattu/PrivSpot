@@ -1,0 +1,58 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./../images/loginimg.gif');
+    background-position: center;
+    background-size: cover;
+}
+form{
+    margin:14% 35% 12% 35%;
+    background-color: #fff;
+    padding:15px 30px;
+
+    border-radius :8px;
+    text-align: center;
+    height:20%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.9);;
+}
+form input{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width:250px;
+    height:25px;
+}
+form .submit{
+    width:fit-content;
+    padding: 4px 15px;
+    border-radius: 8px;
+    background-color: rgb(13, 48, 224);
+    outline: none;
+    border: none;
+    color:#fff;
+    height:30px;
+    cursor:pointer;
+
+}
+form .submit:hover{
+    background-color: rgba(13, 48, 224,0.89);
+
+}
+form a{
+    text-decoration: none;
+}
+form a:hover{
+ color: blueviolet;
+}
+span{
+    margin:15px;
+    color:#fff;
+    background-color: rgb(46, 88, 88);
+    display: block;
+    padding:5px;
+}
