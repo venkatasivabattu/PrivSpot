@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
     <link rel="stylesheet" href="./../css/login.css">
 </head>
 <body>
@@ -35,7 +35,7 @@
             echo "<script>alert('DB not connected');</script>";
             exit;
         }
-        $sql="SELECT password FROM users WHERE uname = '".$u."'";
+        $sql="SELECT name, password FROM users WHERE uname = '".$u."'";
         echo '<script>console.log("'.$sql.'");</script>';
         $r=mysqli_query($con,$sql);
         if($r){
@@ -46,20 +46,25 @@
 
             }
             $f=0;
+            $name='';
             while($i=mysqli_fetch_array($r)){
                 if($i['password']==$p){
                     $f=1;
+                    $name=$i['name'];
                     break;
                 }
             }
             echo '<script>console.log("'.$f.'");</script>';
             if($f==1){
-                header("Location:home.php");
+                
+                echo '<script>alert("welcome '.$name.'");</script>';
+                echo '<script>setTimeout( function(){ window.location.href = "home.php" ;}, 10);</script>';
+                exit;
 
             }
             else{
                 echo '<script>alert("Invalid Password");</script>';
-                exit;
+                
 
             }
         }

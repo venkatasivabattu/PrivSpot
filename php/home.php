@@ -11,6 +11,6 @@
 </body>
 </html>
 <?php
-    echo '<script>alert("success");</script>';
+    echo '<script>alert("home.php");</script>';
     
 ?>

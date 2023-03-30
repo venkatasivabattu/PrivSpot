@@ -1,0 +1,91 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('./../images/loginimg.gif');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+}
+form{
+    
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.9);;
+  
+  width:55%;
+  height: 420px;;
+  margin:8% 10% 6% 40%;
+  border-radius: 8px;
+  background-color:#ffff;
+  padding:5px;
+  
+}
+span{
+    margin:10px;
+    color:#fff;
+    background-color: rgb(46, 88, 88);
+    display: block;
+    padding:5px;
+}
+form .form-container{
+    
+    width:100%;
+    height:78%;
+    padding:0px 10px;
+    display:flex;
+}
+.form-container .fci{
+    
+    height:90.8%;
+    width:50%;
+    margin:1%;
+    display:flex;
+    flex-direction: column;
+    padding-right:8px;
+}
+.form-container .fci:first-child{
+    border-right:1px solid black;
+}
+.form-container .fci .gender{
+    display:flex;
+    flex-direction: row;
+}
+.form-container .fci .gender section{
+    margin-right:1.5%;
+}
+.form-container .fci label{
+    margin-bottom: 2px;
+    
+}
+.form-container .fci input{
+    margin-bottom:14px;
+    outline: none;
+    border:none;
+    border-bottom:0.8px solid black;
+}
+.form-container .fci input:focus{
+    
+    
+    border-bottom:1.8px solid black;
+}
+form .submit{
+    width:fit-content;
+    padding: 4px 15px;
+    border-radius: 8px;
+    background-color: rgb(16, 105, 29);
+    outline: none;
+    border: none;
+    color:#fff;
+    height:30px;
+    cursor:pointer;
+
+}
+form .submit:hover{
+    background-color: rgba(13, 48, 224,0.89);
+
+}
