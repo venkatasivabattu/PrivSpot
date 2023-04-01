@@ -20,6 +20,8 @@
 </body>
 </html>
 <?php
+    session_start();
+    session_destroy();
     if($_SERVER['REQUEST_METHOD']=='POST'){
         
         $u=$_POST['uname'];
@@ -56,6 +58,9 @@
             }
             echo '<script>console.log("'.$f.'");</script>';
             if($f==1){
+                session_start();
+                $_SESSION['uname']=$u;
+                $_SESSION['name']=$name;
                 
                 echo '<script>alert("welcome '.$name.'");</script>';
                 echo '<script>setTimeout( function(){ window.location.href = "home.php" ;}, 10);</script>';

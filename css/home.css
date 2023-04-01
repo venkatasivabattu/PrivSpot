@@ -1,0 +1,319 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgb(46, 88, 88);
+    padding:0px;
+    height:18%;
+    position: fixed;
+    display: block;
+    width:100%;
+    box-shadow: 2px 2px 3px black;
+    
+
+}
+.navbar img{
+    margin-left:-50px;
+    margin-top:-15px;
+    margin-bottom: -30px;
+    
+}
+.navbar .items{
+    float:right;
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top:6%;
+    margin-left:10%;
+   
+}
+.navbar .items li{
+    color:#fff;
+    margin:2%;
+    cursor: pointer;
+    width:fit-content;
+    float: right;
+    
+}
+.navbar .items li a{
+    color:#fff;
+    
+    cursor: pointer;
+    width:fit-content;
+    
+    
+    text-decoration: none;
+    display:inline-block;
+    display:flex;
+    flex-direction: row;
+   
+
+}
+.navbar .items li a .fa{
+    margin-right:2px;
+}
+#case{
+    color: rgb(46, 88, 88);
+    margin-left:30px;
+}
+.body{
+    
+    color:#4e0303;
+    padding-top:120px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.phpdata{
+    float:right;
+    
+    height:460px;
+    display: flex;
+    flex-direction: column;
+}
+.body .quote-container{
+    background-image: url('./../images/motive.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:400px;
+    height:250px;
+    float:right;
+    margin-right: 20px;
+    margin-top:20px;
+    border-radius:8px;    
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.9);;
+  
+}
+.body .quote-container h3{
+    background-color: rgb(46, 88, 88);
+    color:#fff;
+    padding:5px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    
+    
+}
+.body .quote-container .quote-container-item{
+    
+    
+    color:black;
+    text-align: center;
+    width:90%;
+    height:70%;
+    margin: 20px;
+    padding: 10px;
+    
+    
+}
+.body .quote-container .quote-container-item #yes-quote p{
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255,0.85);
+    padding: 10px;
+
+}
+.body .quote-container .quote-container-item #no-quote p{
+    color:red;
+    border-radius: 5px;
+    padding: 6px;
+
+}
+#no-quote a{
+    text-decoration: none;
+    color:blue;
+}
+#no-quote a:hover{
+    color:rgb(193, 46, 210);
+}
+.body .alert-container{
+    background-image: url('./../images/todo.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:400px;
+    height:200px;
+    float:right;
+    margin-right: 20px;
+    margin-top:20px;
+    border-radius:8px;    
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.9);;
+  
+  
+  
+}
+.body .alert-container h3{
+    background-color: rgb(236, 6, 6);
+    color:#fff;
+    padding:5px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    
+    
+}
+.body .alert-container .alert-container-item{
+    
+   color:red;
+    margin: 0.2%;
+    height:150px;
+    padding:5px;
+    padding-top: 20px;
+   
+}
+.body .alert-container .alert-container-item table{
+    width:100%;
+    height:100px;
+    
+}
+.body .alert-container .alert-container-item table,tr{
+    padding:5px;
+    margin-bottom:50px;
+   
+ 
+
+
+}
+.body .alert-container .alert-container-item table{
+    align-items: center;
+    background-color: rgba(255, 255, 255,0.5);
+    border-radius: 8px;
+}
+
+
+td:last-child{
+    float: right;
+}
+td:nth-child(2){
+    float: left;
+}
+td:first-child{
+    float:left;
+    margin-right:3px;
+}
+.body .alert-container .alert-container-item table tr td p{
+    color:black;
+    font-size: medium;
+    background-color: rgba(255, 255, 255,0.8);
+    padding: 3px;
+    border-radius: 8px;
+    
+}
+.body .alert-container .alert-container-item table tr td button{
+    background-color: green;
+    color:#fff;
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.body .alert-container .alert-container-item table tr td button:hover{
+    background-color: rgb(0, 128, 0,0.78);
+    box-shadow: 1px 1px 2px  rgba(0,0,0,0.9);
+    cursor: pointer;
+}
+.body .alert-container .alert-container-item #no-todo{
+    text-align: center;
+    
+}
+#no-todo p{
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+#no-todo a{
+    text-decoration: none;
+    color:blue;
+}
+#no-todo a:hover{
+    color:rgb(13, 96, 6);
+}
+
+
+.body .htmldivs{
+    margin-right:50px;
+    margin-left: 50px;
+    margin-top: 15px;
+    width:800px;
+    height:450px;
+    display: flex;
+    flex-direction: column;
+}
+.htmldivs .indiv{
+
+width:95%;
+height:49%;
+margin:10px;
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+
+}
+.htmldivs .indiv .diary,.notes,.todo,.motive{
+    width:46%;
+    height:93%;
+    margin:20px;
+    background-color: fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.9);;
+  
+  background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.htmldivs .indiv .diary{
+    background-image: url('./../images/dairy.webp');
+    
+}
+.htmldivs .indiv .notes{
+    background-image: url('./../images/notes.jpg');
+    
+    
+}
+.htmldivs .indiv .todo{
+    background-image: url('./../images/tododiv.avif');
+    
+    
+}
+.htmldivs .indiv .motive{
+    background-image: url('./../images/motivediv.jpg');
+    
+    
+}
+.htmldivs .indiv button{
+    background-color: black;
+    color: #fff;
+    padding:6px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    
+  width: 100%;
+  min-height: 30px;
+  bottom: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+}
+.htmldivs .indiv button a{
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 6px;
+}
+.htmldivs .indiv button:hover a{
+    background-color:#fff;
+    border-radius: 8px;
+    color: black;
+}
+
