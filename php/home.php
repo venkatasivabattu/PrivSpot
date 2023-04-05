@@ -57,6 +57,7 @@
                             echo "<script>alert('DB not connected');</script>";
                             exit;
                         }
+                        $_SESSION['con']=$con;
                         $sql="SELECT * FROM quotes WHERE uname = '".$u."'";
                         echo '<script>console.log("'.$sql.'");</script>';
                         $r=mysqli_query($con,$sql);

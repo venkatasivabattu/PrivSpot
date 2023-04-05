@@ -66,6 +66,11 @@
     flex-direction: row;
     
 }
+
+
+
+
+
 .phpdata{
     float:right;
     
@@ -118,6 +123,7 @@
 
 }
 .body .quote-container .quote-container-item #no-quote p{
+    background-color: rgba(255, 255, 255,0.85);
     color:red;
     border-radius: 5px;
     padding: 6px;

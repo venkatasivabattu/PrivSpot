@@ -1,0 +1,32 @@
+
+.data{
+    
+    width:100%;
+    height:86.5%;
+    padding:10px;
+    overflow-y: scroll;
+
+}
+#update{
+    position: fixed;
+    top:147px;
+    left:710px;
+    cursor: pointer;
+    padding:3px 9px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    
+}
+#update a{
+    color:black;
+    text-decoration: none;
+}
+#update a:hover{
+    color:rgb(7, 79, 32);
+}
+#update:hover{
+    
+    box-shadow: 2px 2px 3px black;
+}

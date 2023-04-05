@@ -1,0 +1,289 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgb(46, 88, 88);
+    padding:0px;
+    height:18%;
+    position: fixed;
+    display: block;
+    width:100%;
+    box-shadow: 2px 2px 3px black;
+    
+
+}
+.navbar img{
+    margin-left:-50px;
+    margin-top:-15px;
+    margin-bottom: -30px;
+    
+}
+.navbar .items{
+    float:right;
+    display:flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-top:6%;
+    margin-left:10%;
+   
+}
+.navbar .items li{
+    color:#fff;
+    margin:2%;
+    cursor: pointer;
+    width:fit-content;
+    float: right;
+    
+}
+.navbar .items li a{
+    color:#fff;
+    
+    cursor: pointer;
+    width:fit-content;
+    
+    
+    text-decoration: none;
+    display:inline-block;
+    display:flex;
+    flex-direction: row;
+   
+
+}
+.navbar .items li a .fa{
+    margin-right:2px;
+}
+#case{
+    color: rgb(46, 88, 88);
+    margin-left:30px;
+}
+.body{
+    
+   
+    padding-top:110px;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+.body .dairydiv{
+    background-image: url('./../../images/dairy/ddd.avif');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    width:100%;
+    padding:40px;
+    padding-bottom: 5px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.body .dairydiv .dcheck{
+    
+    margin-top:30px;
+    background-color: #ffffff9c;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:600px;
+    height:60px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.9);;
+}
+.body .dairydiv .dcheck .date{
+    width:60%;
+    background-color: #ffffffe0;
+    padding:10px 10px;
+    text-align: center;
+    border-radius: 8px;
+    border:0.3px solid black;
+}
+.body .dairydiv .dcheck .yes-buttons,.body .dairydiv .dcheck .no-buttons{
+    display: flex;
+    width:35%;
+    justify-content: center;
+    align-items: center;
+}
+.body .dairydiv .dcheck button{
+    margin:5px;
+    min-width:60px;
+    padding:3px 5px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+.body .dairydiv .dcheck button a{
+    color: #fff;
+    text-decoration: none;
+    
+
+}
+.body .dairydiv .dcheck button:hover{
+
+    cursor: pointer;
+    box-shadow:2px 2px 2px black;
+   
+    
+}
+.body .dairydiv .dcheck button:first-child{
+    background-color: green;
+}
+.body .dairydiv .dcheck button:nth-child(2){
+    background-color: blue;
+}
+.body .dairydiv .dcheck button:nth-child(3){
+    background-color:red;
+}
+.body .dairydiv .dsearch{
+    margin:40px;
+    margin-bottom: 0px;
+    width:900px;
+    height:300px;
+    background-color: #ffffff63;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.9);;
+}
+.body .dairydiv .dsearch h3{
+    background-color: rgb(46, 88, 88);
+    padding:8px;
+    color:#ffff;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+.body .dairydiv .dsearch .form{
+    background-color: #ffff;
+    width:400px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px 280px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.9);;
+}
+.body .dairydiv .dsearch .form form input,button{
+    height:25px;
+    margin:4px;
+}
+.body .dairydiv .dsearch .form button,input{
+    border-radius: 8px;
+    padding:4px;
+   
+}
+.body .dairydiv .dsearch .form #search{
+    border: none;
+    outline: none;
+    background-color: green;
+    color: #fff;
+    padding: 3px 6px;
+    width: fit-content;
+}
+.body .dairydiv .dsearch .form #search:hover,#all:hover{
+    box-shadow: 2px 2px 3px black;
+    cursor: pointer;
+}
+.body .dairydiv .dsearch .form #all{
+    border: none;
+    outline: none;
+    background-color: blue;
+    color: #fff;
+    padding: 3px 6px;
+    width: fit-content;
+}
+#all a{
+    text-decoration: none;
+    color:#fff;
+}
+.nodairy{
+    background-image:url('./../../images/dairy/nodairy.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:250px;
+    height: 190px;
+    margin:10px 350px;
+    border-radius: 15px;
+    
+}
+
+
+
+.yesdairy{
+    
+    margin:20px 150px;
+    background-color: #ffffff9c;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:600px;
+    height:60px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.9);;
+}
+.yesdairy .date{
+    width:60%;
+    background-color: #ffffffe0;
+    padding:10px 10px;
+    text-align: center;
+    border-radius: 8px;
+    border:0.3px solid black;
+}
+.yesdairy .yes-buttons{
+    display: flex;
+    width:35%;
+    justify-content: center;
+    align-items: center;
+}
+.yesdairy button{
+    margin:5px;
+    min-width:60px;
+    padding:3px 5px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+.yesdairy button a{
+    color: #fff;
+    text-decoration: none;
+    
+
+}
+.yesdairy button:hover{
+
+    cursor: pointer;
+    box-shadow:2px 2px 2px black;
+   
+    
+}
+.yesdairy button:first-child{
+    background-color: green;
+}
+.yesdairy button:nth-child(2){
+    background-color: blue;
+}
+.yesdairy button:nth-child(3){
+    background-color:red;
+}
