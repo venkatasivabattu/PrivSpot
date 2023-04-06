@@ -31,7 +31,7 @@
             
 
             <div class="content">
-            <img src='./../../images/dairy/dentry/blank-page-spiral-bound-notebook-w68nyvbmkkpt7lqf.jpg' width="1148.2px" height="476px">
+            <img src='./../../images/dairy/dentry/dop.jpg' width="1148.2px" height="476px">
             
             <?php
    

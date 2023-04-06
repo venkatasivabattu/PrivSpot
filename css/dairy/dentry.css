@@ -62,9 +62,7 @@ textarea::placeholder {
     color: black;
     font-style: italic;
   }
-  textarea{
-    font-family: 'Courier New', Courier, monospace;
-  }
+ 
 #save{
     position: fixed;
     top:147px;
