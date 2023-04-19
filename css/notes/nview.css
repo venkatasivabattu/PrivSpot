@@ -1,0 +1,50 @@
+.form1{
+    height:95%;
+    
+    background-color: #fff;
+}
+.formcon{
+    padding:5px;
+    
+}
+#title{
+    margin-top:15px;
+    font-size: 20px;
+    font-weight: bold;
+   
+    padding:2px;
+    text-align: center;
+    width: 320px;
+   
+    height:30px;
+    overflow: hidden;
+  
+}
+#matter{
+    border-top: 1px solid black;
+    height:340px;
+    overflow: scroll;
+    text-align: justify;
+    padding: 2px 3px;
+}
+#edit{
+    position: absolute;
+   margin-left:150px;
+   margin-top:13px;
+    padding: 2px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    outline: none;
+    
+}
+#edit a{
+    color: #fff;
+    text-decoration: none;
+
+}
+#edit:hover{
+    box-shadow: 2px 3px 3px black;
+}

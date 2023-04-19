@@ -50,7 +50,15 @@
                 <center><h3>A Line to Motivate</h3></center>
                 <div class="quote-container-item">
                     <?php
-                        session_start();
+                    session_start();
+                    if(!count($_SESSION)>0){
+                       
+                
+                   
+                        header("Location:index.php");
+                        exit;
+                    }
+                        
                         $u=$_SESSION['uname'];
                         $con=mysqli_connect("localhost","root","","privdb");
                         if(!$con){
