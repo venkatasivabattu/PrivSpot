@@ -21,6 +21,10 @@
 </html>
 <?php
     session_start();
+    if(count($_SESSION)>0){
+        header("Location:./home.php");
+        exit;
+    }
     session_destroy();
     if($_SERVER['REQUEST_METHOD']=='POST'){
         

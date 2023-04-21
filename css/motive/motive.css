@@ -1,0 +1,335 @@
+.body{
+    
+    width:100%;
+    height:100vh;
+    
+    padding: 3px;
+    padding-top: 110px;
+    
+}
+.content{
+    width: 100%;
+    height: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.i1,.i2,.i3{
+    height: 90%;
+    margin: 10px;;
+    
+}
+
+.i1,.i3{
+    width: 25%;
+    padding-top: 5px;
+}
+.i1{
+    
+    
+  background-image: url("./../../images/motive/people-run-to-their-goal-on-the-column-of-columns-move-up-motivation-the-path-to-the-target-s-achievement-flat-design-modern-illustration-vector.webp");
+  background-position: center;
+  background-size: cover;
+  
+
+}
+.i1 button{
+  padding:4px 9px;
+  background-color: blue;
+  color: #fff;
+  border-radius: 5px;
+  border:none;
+  outline: none;
+  cursor: pointer;
+}
+.i1 button:hover{
+  box-shadow: 2px 3px 3px black;
+  background-color: rgba(0, 0, 255, 0.87);
+}
+.i2{
+    width: 50%;;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.9);;
+  background-color:#fff;
+  
+
+}
+.i3{
+    height: 100%;
+    background-image: url("./../../images/motive/Self-Evaluation.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 2%;
+  
+}
+#i1,#i3{
+    width:100%;
+    margin-top: 15px;
+    height: 88%;;
+  
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.9);;
+  display: none;
+  
+}
+#i3{
+  margin-top: 20px;
+  height: 87.63%;
+  padding:6px 7px;
+  background-color: #fff;
+}
+#i1{
+  display: none;
+  background-color: #fff;
+  padding:6px 7px;
+  height: 93%;
+
+}
+#i1 h3,#i3 h3{
+  background-color: rgb(46, 88, 88);
+  color: #fff;
+  padding: 2px;
+}
+#i1 form,#i3 form{
+ 
+  padding: 2px 3px;
+}
+#i1 input,textarea,#i3 input,textarea{
+  border: none;
+  outline: none;
+  padding: 3px;
+}
+#i1 input,#i3 input{
+  padding:4px 7px;
+  background-color: green;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+#i1 input:hover,#i3 input:hover{
+  box-shadow: 2px 3px 3px black;
+
+}
+#x{
+  position: absolute;
+  margin-top: -24px;;
+  margin-left: 105px;
+}
+#i3 #x{
+  margin-top: -24px;;
+  
+}
+#x button{
+  background-color: #fff;
+  color: red;
+  padding:3px 7px;
+  border-radius: 0px;
+  border: none;
+  cursor: pointer;
+}
+#x button:hover{
+  background-color: red;
+  color: white;
+  box-shadow: none;
+}
+#i3 form #hidden{
+  background-color: antiquewhite;
+  display: none;
+  visibility: hidden;
+}
+
+
+
+.search{
+  width:100%;
+  
+  padding:15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgba(16, 104, 212, 0.682);
+  background-color: rgb(46, 88, 88);
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  box-shadow:2px 2px 3px black;
+}
+.search #input{
+width:450px;
+margin-right: 6px;
+height:25px;
+border-radius: 10px;
+outline: none;
+border: 2px solid #fff;
+
+
+}
+.search #input:hover,.search #input:focus{
+box-shadow:2px 2px 3px black;
+
+
+}
+.search form input:last-child, .search button{
+border-radius: 10px;
+padding: 1px 5px;
+width: fit-content;
+border: none;
+height: 23px;
+cursor: pointer;
+}
+.search form input:last-child:hover, .search button:hover{
+box-shadow:2px 2px 3px black;
+}
+.search form input:nth-child(2){
+background-color:white;
+color:rgb(4, 4, 81);
+}
+.search button{
+background-color: red;
+color: #fff;
+}
+.search button a{
+text-decoration: none;
+color: #fff;
+}
+.result{
+  margin-top: 5px;
+ 
+  width: 100%;
+  height: 85%;
+  overflow-y: scroll;
+  padding: 5px;
+  justify-content: center;
+ 
+}
+.item{
+  width: 94%;
+  margin: 15px;
+  background-color: rgba(46, 88, 88, 0.901);
+  border-radius: 8px;
+  height: 90px;
+  padding: 7px;
+  padding-right: 0px;
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+
+}
+.item:hover{
+  box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.9);
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.9);;
+}
+.item .quote{
+  height:87%;;
+  width: 93%;
+  overflow-y: scroll;
+  margin-right: 5px;
+  background-color: #fff;
+  position: sticky;
+  padding: 5px;
+  padding-left: 0px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.item .ops1{
+  width: 5%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.item .ops2{
+  display: none;
+}
+.item:hover .ops1{
+  display: none;
+}
+.item:hover .ops2{
+ 
+  width: 5%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height:80%;;
+
+}
+.ops2 button{
+  border: none;
+  outline: none;
+  background-color: inherit;
+  color: white;
+  cursor: pointer;
+  margin: 3px 0px;
+}
+.ops2 button:first-child:hover{
+  color: rgb(255, 192, 173);
+}
+.ops2 button:last-child:hover{
+  color: red;
+}
+
+.result .nodata{
+  
+  width: 100%;
+  height: 100%;
+  background-color: #fbfbfbd7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result .nodata img{
+  width: 320px;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

@@ -1,0 +1,10 @@
+<?php
+session_start();
+if(count($_SESSION)<1){
+    header("Location:./../index.php");
+    exit;
+}  
+unset($_SESSION['search']);
+header("Location:motive.php");
+exit;
+?>

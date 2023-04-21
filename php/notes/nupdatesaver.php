@@ -70,6 +70,7 @@
         print("everything cleared");
         print($t);
         $date = date('Y-m-d H:i:s');
+        echo "<script>console.log('".$date."');</script>";
         $s="UPDATE notes SET title = '".$t."' , data = '".$d."' , date = '".$date."'  WHERE nid =".$id;
         $r=mysqli_query($con,$s);
         if(!$r){

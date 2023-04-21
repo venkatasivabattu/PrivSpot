@@ -50,6 +50,7 @@
                 <center><h3>A Line to Motivate</h3></center>
                 <div class="quote-container-item">
                     <?php
+                    include './errorhandler.php';
                     session_start();
                     if(!count($_SESSION)>0){
                        
