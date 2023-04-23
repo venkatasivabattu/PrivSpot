@@ -47,6 +47,16 @@
                     <form action='motive.php' method='post'>
                         <input type="search" name="search" value='<?= isset($_POST['search']) ? $_POST['search'] : (isset($_SESSION['search']) ? $_SESSION['search'] : '') ?>' placeholder="eg:title of notes" id="input" required>
                     <?php 
+                    
+                    if(isset($_GET['f'])){
+                        if($_GET['f']==1){
+                            echo '<script>
+                            document.getElementById("add").style.display = "none";
+                            document.getElementById("i1").style.display = "block";
+                        </script>';
+                        }
+                    }
+                    
                     include '../errorhandler.php';
                     session_start();
                     $con=mysqli_connect("localhost","root","","privdb");

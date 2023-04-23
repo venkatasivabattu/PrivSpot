@@ -38,10 +38,10 @@
             </div>
             <div class="indiv">
                 <div class="todo">
-                    <button><a href="./todo/todo.php">Add To-do</a></button>
+                    <button><a href="./todo/todo.php?f=1">Add To-do</a></button>
                 </div>
                 <div class="motive">
-                    <button><a href="./motive/motive.php">Add Motive</a></button>
+                    <button><a href="./motive/motive.php?f=1">Add Motive</a></button>
                 </div>
             </div>
         </div>

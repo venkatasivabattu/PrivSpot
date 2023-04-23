@@ -16,18 +16,17 @@
         header("Location:./todo.php");
         exit;
     }
-    $s="UPDATE todo SET status = true WHERE tid =".$_GET['id'];
+    $s="DELETE FROM todo WHERE tid =".$_GET['id'];
     $r=mysqli_query($con,$s);
     if(!$r){
-        echo '<script>alert("error in marking todo");</script>';
+        echo '<script>alert("error in DELETING todo");</script>';
         exit;
 
     }else{
-        echo '<script>alert("Task Marked as Completed.....");</script>';
+        echo '<script>alert("Task deleted.....");</script>';
             echo '<script>setTimeout( function(){ window.location.href = "./todo.php" ;}, 10);</script>';
             exit;
 
     }
 
 ?>
-    
