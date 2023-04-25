@@ -89,7 +89,7 @@
                             
                         }
                         else{
-                            echo "<span id='no-quote'><p><i class='fa fa-frown-o' aria-hidden='true' style='color:black'></i> Oops! No quotes Found <a href='./motive/motive.php'><i class='fa fa-hand-o-right' aria-hidden='true'></i>Add Quote</a></span>";
+                            echo "<span id='no-quote'><p><i class='fa fa-frown-o' aria-hidden='true' style='color:black'></i> Oops! No quotes Found <a href='./motive/motive.php?f=1'><i class='fa fa-hand-o-right' aria-hidden='true'></i>Add Quote</a></span>";
                         }
                         
                     ?>
@@ -125,7 +125,7 @@
                             echo '</tbody></table>';
                         }
                         else{
-                            echo "<span id='no-todo'><p><i class='fa fa-frown-o' aria-hidden='true' style='color:black'></i> Oops! No tasks Found <a href='./todo/todo.php'><i class='fa fa-hand-o-right' aria-hidden='true'></i>Add a Task</a></span>";
+                            echo "<span id='no-todo'><p><i class='fa fa-frown-o' aria-hidden='true' style='color:black'></i> Oops! No tasks Found <a href='./todo/todo.php?f=1'><i class='fa fa-hand-o-right' aria-hidden='true'></i>Add a Task</a></span>";
                         }
                         
                     ?>
